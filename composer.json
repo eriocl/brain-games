@@ -1,5 +1,8 @@
 {
     "name": "eriocl/php-project-lvl1",
+     "bin": [
+	    "bin/brain-games"
+	    ],
     "authors": [
         {
             "name": "eriocl",
