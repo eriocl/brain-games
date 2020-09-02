@@ -1,0 +1,10 @@
+{
+    "name": "eriocl/php-project-lvl1",
+    "authors": [
+        {
+            "name": "eriocl",
+            "email": "eriocl@ya.ru"
+        }
+    ],
+    "require": {}
+}
