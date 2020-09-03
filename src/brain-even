@@ -1,0 +1,37 @@
+<?php
+
+namespace Brain\Games\Even;
+
+use function cli\line;
+use function cli\prompt;
+
+function run()
+{
+    line('Welcome to the Brain Game!');
+    line('Answer "yes" if the number is even, otherwise answer "no"');
+    $name = prompt('May I have your name?');
+    line("Hello, %s!", $name);
+
+    line('Question: 15');
+    $answer = prompt('Your answer');
+    if ($answer !== 'no') {
+        return line("'{$answer}' is wrong answer ;(. Correct answer was 'no' \n Let's try again, {$name}!");
+    } else {
+        line('Correct!');
+    }
+     line('Question: 6');
+        $answer = prompt('Your answer');
+        if ($answer !== 'yes') {
+            return line("'{$answer}' is wrong answer ;(. Correct answer was 'yes' \n Let's try again, {$name}!");
+        } else {
+            line('Correct!');
+        }
+      line('Question: 7');
+         $answer = prompt('Your answer');
+         if ($answer !== 'no') {
+             return line("'{$answer}' is wrong answer ;(. Correct answer was 'no' \n Let's try again, {$name}!");
+         } else {
+             line('Correct!');
+             line("Congratulations, {$name}!");
+         }
+}
