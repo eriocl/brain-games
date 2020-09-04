@@ -20,15 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5007faef-dd0a-4b9c-914c-b5ab731e083d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/brain-games.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/brain-even" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/brain-even" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/brain-games.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/brain-games.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-even" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-even" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-games" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brain-even" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,21 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
+  <component name="RunManager">
+    <configuration name="brain-even" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/brain-even">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.brain-even.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,6 +93,7 @@
       <workItem from="1599124762291" duration="3872000" />
       <workItem from="1599137297888" duration="5214000" />
       <workItem from="1599144027573" duration="927000" />
+      <workItem from="1599224986415" duration="3894000" />
     </task>
     <servers />
   </component>
@@ -106,6 +121,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="591" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599137017812" />
+    <state x="645" y="322" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599225662025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="322" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599225662025" />
     <state x="917" y="488" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599137681019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -114,6 +133,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="612" y="480" width="446" height="266" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1599125639657" />
+    <state x="315" y="168" width="1200" height="816" key="DiffContextDialog" timestamp="1599225936420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="315" y="168" width="1200" height="816" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599225936420" />
+    <state x="695" y="330" key="FileChooserDialogImpl" timestamp="1599225761365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="330" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599225761365" />
+    <state x="750" y="499" key="NewPhpFileDialog" timestamp="1599225546126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="750" y="499" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599225546126" />
     <state x="336" y="243" key="SettingsEditor" timestamp="1599131869347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

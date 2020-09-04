@@ -1,37 +1,42 @@
 <?php
 
+
 namespace Brain\Games\Even;
 
 use function cli\line;
 use function cli\prompt;
 
+function generateQuestions()
+{
+    $questionsAndAnswers = [];
+    $roundsCount = 3;
+    for ($i = 0; $i < $roundsCount; $i++) {
+        $question = rand(1,15);
+        if ($question % 2 === 0) {
+            $correctAnswer = 'yes';
+        } else {
+            $correctAnswer = 'no';
+        }
+        $questionsAndAnswers[] = [$question, $correctAnswer];
+    }
+    return $questionsAndAnswers;
+}
+
 function run()
 {
+    $questions = generateQuestions();
     line('Welcome to the Brain Game!');
     line('Answer "yes" if the number is even, otherwise answer "no"');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
-
-    line('Question: 15');
-    $answer = prompt('Your answer');
-    if ($answer !== 'no') {
-        return line("'{$answer}' is wrong answer ;(. Correct answer was 'no' \n Let's try again, {$name}!");
-    } else {
-        line('Correct!');
-    }
-     line('Question: 6');
+    foreach ($questions as [$question, $correctAnswer]) {
+        line("Question: {$question}");
         $answer = prompt('Your answer');
-        if ($answer !== 'yes') {
-            return line("'{$answer}' is wrong answer ;(. Correct answer was 'yes' \n Let's try again, {$name}!");
-        } else {
+        if ($answer === $correctAnswer) {
             line('Correct!');
+        } else {
+            return line("{$answer} is wrong answer ;(. Correct answer was {$correctAnswer}.");
         }
-      line('Question: 7');
-         $answer = prompt('Your answer');
-         if ($answer !== 'no') {
-             return line("'{$answer}' is wrong answer ;(. Correct answer was 'no' \n Let's try again, {$name}!");
-         } else {
-             line('Correct!');
-             line("Congratulations, {$name}!");
-         }
+    }
+    return line("Congratulations, {$name}!");
 }
