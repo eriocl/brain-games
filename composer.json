@@ -1,5 +1,5 @@
 {
-    "name": "eriocl/php-project-lvl1",
+    "name": "eriocl/brain-games",
     "scripts" : {
 	"phpcs": "phpcs"
     },	        
