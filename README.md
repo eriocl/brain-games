@@ -31,6 +31,14 @@ LOSE
 
 https://asciinema.org/a/FLcqcCQdxwTTP67bXEoUsNOpc
 
-<a href="https://codeclimate.com/github/eriocl/php-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/8bbb2e83101b433f78c5/maintainability" /></a>
-<a href="https://codeclimate.com/github/eriocl/php-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/8bbb2e83101b433f78c5/test_coverage" /></a>
-![PHP CI](https://github.com/eriocl/php-project-lvl1/workflows/PHP%20CI/badge.svg)
+    Play:       brain-progression
+WIN
+
+https://asciinema.org/a/MDgjwm2edGe6hsSGOMeL251yn
+
+LOSE
+
+https://asciinema.org/a/ECpwhYAJ8M5YkKOVTiWFZrRJr
+
+<a href="https://codeclimate.com/github/eriocl/brain-games/maintainability"><img src="https://api.codeclimate.com/v1/badges/73769ed538fd2845d68d/maintainability" /></a>
+![PHP CI](https://github.com/eriocl/brain-games/workflows/PHP%20CI/badge.svg)

@@ -32,7 +32,7 @@
       <change beforePath="$PROJECT_DIR$/bin/brain-calc" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-calc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-even" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-even" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-gcd" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-gcd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-progession" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-progression" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-progression" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/engine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine.php" afterDir="false" />
@@ -106,7 +106,8 @@
       <workItem from="1599239751336" duration="7335000" />
       <workItem from="1599292203400" duration="5581000" />
       <workItem from="1599298375489" duration="5253000" />
-      <workItem from="1599317808180" duration="3611000" />
+      <workItem from="1599317808180" duration="3989000" />
+      <workItem from="1599321864082" duration="708000" />
     </task>
     <servers />
   </component>
