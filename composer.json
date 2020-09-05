@@ -5,13 +5,14 @@
     },	        
     "autoload": {
         "files": [
-            "src/Cli.php",
-            "src/brain-even"
+            "src/games/brain-even",
+            "src/games/brain-calc",
+            "src/engine"
         ]
     },
      "bin": [
-	    "bin/brain-games",
-         "bin/brain-even"
+         "bin/brain-even",
+         "bin/brain-calc"
 	    ],
     "authors": [
         {

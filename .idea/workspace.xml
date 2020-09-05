@@ -30,11 +30,11 @@
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-even" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-even" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-games" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-games" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cli.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/brain-even" beforeDir="false" afterPath="$PROJECT_DIR$/src/brain-even" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cli.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brain-even" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +74,13 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eriocl\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\eriocl\brain-games\src\games" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="brain-even" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/brain-even">
+    <configuration name="brain-even" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/games/brain-even">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP" />
@@ -96,7 +101,9 @@
       <workItem from="1599137297888" duration="5214000" />
       <workItem from="1599144027573" duration="927000" />
       <workItem from="1599224986415" duration="5351000" />
-      <workItem from="1599238598351" duration="352000" />
+      <workItem from="1599238598351" duration="1136000" />
+      <workItem from="1599239751336" duration="7335000" />
+      <workItem from="1599292203400" duration="5581000" />
     </task>
     <servers />
   </component>
@@ -120,18 +127,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599144300526" />
-    <state x="591" y="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599137017812">
+    <state x="591" y="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599294665880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599137017812" />
+    <state x="591" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599294665880" />
     <state x="645" y="322" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599225662025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="645" y="322" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599225662025" />
-    <state x="917" y="488" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599137681019">
+    <state x="917" y="488" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599292284020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="917" y="488" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1599137681019" />
+    <state x="917" y="488" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1599292284020" />
     <state x="612" y="480" width="446" height="266" key="ComposerInitDialogKey" timestamp="1599125639657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -140,14 +147,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="315" y="168" width="1200" height="816" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599225936420" />
-    <state x="695" y="330" key="FileChooserDialogImpl" timestamp="1599225761365">
+    <state x="695" y="330" key="FileChooserDialogImpl" timestamp="1599239778466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="695" y="330" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599225761365" />
-    <state x="750" y="499" key="NewPhpFileDialog" timestamp="1599225546126">
+    <state x="695" y="330" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599239778466" />
+    <state x="750" y="499" key="NewPhpFileDialog" timestamp="1599293407409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="750" y="499" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599225546126" />
+    <state x="750" y="499" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599293407409" />
     <state x="336" y="243" key="SettingsEditor" timestamp="1599131869347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
