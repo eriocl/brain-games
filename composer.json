@@ -2,7 +2,8 @@
     "name": "eriocl/brain-games",
     "scripts" : {
 	"phpcs": "phpcs"
-    },	        
+    },
+    "license": "MIT",
     "autoload": {
         "files": [
             "src/games/brain-even.php",
