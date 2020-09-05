@@ -37,7 +37,6 @@
       <change beforePath="$PROJECT_DIR$/src/engine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/games/brain-calc.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-calc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/games/brain-even.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-even.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/brain-gcd.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-gcd.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <workItem from="1599238598351" duration="1136000" />
       <workItem from="1599239751336" duration="7335000" />
       <workItem from="1599292203400" duration="5581000" />
-      <workItem from="1599298375489" duration="3770000" />
+      <workItem from="1599298375489" duration="4623000" />
     </task>
     <servers />
   </component>

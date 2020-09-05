@@ -10,7 +10,7 @@ function generateDataGame($roundsCount)
 {
     $dataGame[0] = 'Answer "yes" if the number is even, otherwise answer "no"';
     for ($i = 0; $i < $roundsCount; $i++) {
-        $question = rand(1,15);
+        $question = rand(1, 15);
         if ($question % 2 === 0) {
             $correctAnswer = 'yes';
         } else {
