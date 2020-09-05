@@ -15,7 +15,7 @@
      "bin": [
          "bin/brain-even",
          "bin/brain-gcd",
-         "bin/brain-progession",
+         "bin/brain-progression",
          "bin/brain-calc"
 	    ],
     "authors": [
