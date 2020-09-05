@@ -8,12 +8,14 @@
             "src/games/brain-even.php",
             "src/games/brain-calc.php",
             "src/games/brain-gcd.php",
+            "src/games/brain-progression.php",
             "src/engine.php"
         ]
     },
      "bin": [
          "bin/brain-even",
          "bin/brain-gcd",
+         "bin/brain-progession",
          "bin/brain-calc"
 	    ],
     "authors": [
