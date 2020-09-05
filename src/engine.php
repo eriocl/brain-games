@@ -32,7 +32,7 @@ function runEngine($dataGame)
         if ($answer == $correctAnswer) {
             line('Correct!');
         } else {
-            return line("{$answer} is wrong answer ;(. Correct answer was {$correctAnswer}.");
+            return line("{$answer} is wrong answer ;(. Correct answer was {$correctAnswer} .");
         }
     }
     return line("Congratulations, {$name}!");
