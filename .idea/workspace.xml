@@ -29,12 +29,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-calc" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-calc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-even" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-even" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-games" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cli.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/brain-even" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/brain-calc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/brain-even" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="brain-even" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/games/brain-even">
+    <configuration name="brain-even.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/games/brain-even.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP" />
@@ -104,6 +105,7 @@
       <workItem from="1599238598351" duration="1136000" />
       <workItem from="1599239751336" duration="7335000" />
       <workItem from="1599292203400" duration="5581000" />
+      <workItem from="1599298375489" duration="2076000" />
     </task>
     <servers />
   </component>
@@ -127,10 +129,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599144300526" />
-    <state x="591" y="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599294665880">
+    <state x="591" y="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599299687725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599294665880" />
+    <state x="591" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599299687725" />
     <state x="645" y="322" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599225662025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

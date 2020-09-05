@@ -21,12 +21,12 @@ function generateDataGame($roundsCount)
 {
     $dataGame[0] = 'What is the result of the expression ?';
     for ($i = 0; $i < $roundsCount; $i++) {
-        $a = rand(1, 50);
-        $b = rand(1, 50);
+        $numberA = rand(1, 50);
+        $numberB = rand(1, 50);
         $operations = ['+', '-', '*'];
         $operation = $operations[array_rand($operations, 1)];
-        $question = "{$a} {$operation} {$b}";
-        $correctAnswer = calculate($a, $b, $operation);
+        $question = "{$numberA} {$operation} {$numberB}";
+        $correctAnswer = calculate($numberA, $numberB, $operation);
 
         $dataGame[] = [$question, $correctAnswer];
     }
