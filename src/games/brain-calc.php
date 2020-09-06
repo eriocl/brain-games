@@ -6,7 +6,7 @@ use function cli\line;
 use function Brain\Games\Engine\getRoundsCount;
 use function Brain\Games\Engine\runEngine;
 
-function calculate($a, $b, $operation)
+function calculate($a, $b, $operation) #calculate expression
 {
     switch ($operation) {
         case '-':
@@ -17,7 +17,7 @@ function calculate($a, $b, $operation)
             return $a * $b;
     }
 }
-function generateDataGame($roundsCount)
+function generateDataGame($roundsCount) #generation data game "brain-calc"
 {
     $dataGame[0] = 'What is the result of the expression ?';
     for ($i = 0; $i < $roundsCount; $i++) {
@@ -32,7 +32,7 @@ function generateDataGame($roundsCount)
     }
     return $dataGame;
 }
-function runGame()
+function runGame() # game "brain-calc"
 {
     line('Welcome to the Brain Game!');
     $roundsCount = getRoundsCount();

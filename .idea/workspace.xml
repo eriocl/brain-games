@@ -32,10 +32,16 @@
       <change beforePath="$PROJECT_DIR$/bin/brain-calc" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-calc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-even" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-even" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-gcd" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-gcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-prime" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-prime" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-progression" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-progression" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/engine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/brain-calc.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-calc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/brain-even.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-even.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/brain-gcd.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-gcd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/brain-prime.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-prime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/brain-progression.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-progression.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

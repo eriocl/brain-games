@@ -5,7 +5,7 @@ namespace Brain\Games\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function getRoundsCount()
+function getRoundsCount() #asking user about rounds count
 {
     $flag = false;
     while ($flag !== true) {
@@ -19,7 +19,7 @@ function getRoundsCount()
     return $roundsCount;
 }
 
-function runEngine($dataGame)
+function runEngine($dataGame) # game body
 {
     line("{$dataGame[0]}");
     $name = prompt('May I have your name?');

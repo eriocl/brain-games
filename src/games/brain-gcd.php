@@ -6,7 +6,7 @@ use function cli\line;
 use function Brain\Games\Engine\getRoundsCount;
 use function Brain\Games\Engine\runEngine;
 
-function findGcd($a, $b)
+function findGcd($a, $b) #finding greatest common divisor
 {
     while (($a != 0) && ($b != 0)) {
         if ($a > $b) {
@@ -17,7 +17,7 @@ function findGcd($a, $b)
     }
     return $a;
 }
-function generateDataGame($roundsCount)
+function generateDataGame($roundsCount) #generation data game "brain-gcd"
 {
     $dataGame[0] = 'Find the greatest common divisor of given numbers';
     for ($i = 0; $i < $roundsCount; $i++) {
@@ -29,7 +29,7 @@ function generateDataGame($roundsCount)
     }
     return $dataGame;
 }
-function runGame()
+function runGame() #game "brain-gcd"
 {
     line('Welcome to the Brain Game!');
     $roundsCount = getRoundsCount();
