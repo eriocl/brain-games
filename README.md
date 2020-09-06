@@ -1,6 +1,6 @@
 # Brain games
 
-    Install:    composer global require eriocl/php-project-lvl1
+    Install:    composer global require eriocl/brain-games
 <a href="https://asciinema.org/a/fcn49jnLE9zdRmm7wuWwdLFyA" target="_blank"><img src="https://asciinema.org/a/fcn49jnLE9zdRmm7wuWwdLFyA.svg" /></a>
 
 
