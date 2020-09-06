@@ -2,7 +2,6 @@
 
 namespace Brain\Games\Calc;
 
-use function cli\line;
 use function Brain\Games\Engine\getRoundsCount;
 use function Brain\Games\Engine\runEngine;
 
@@ -34,7 +33,6 @@ function generateDataGame($roundsCount) #generation data game "brain-calc"
 }
 function runGame() # game "brain-calc"
 {
-    line('Welcome to the Brain Game!');
     $roundsCount = getRoundsCount();
     $dataGame = generateDataGame($roundsCount);
     runEngine($dataGame);

@@ -7,6 +7,7 @@ use function cli\prompt;
 
 function getRoundsCount() #asking user about rounds count
 {
+    line('Welcome to the Brain Game!');
     $flag = false;
     while ($flag !== true) {
         $roundsCount = prompt('How many rounds do you want ? ');

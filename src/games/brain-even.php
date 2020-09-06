@@ -22,7 +22,6 @@ function generateDataGame($roundsCount) #generation data game "brain-even"
 }
 function runGame() #game "brain-even
 {
-    line('Welcome to the Brain Game!');
     $roundsCount = getRoundsCount();
     $dataGame = generateDataGame($roundsCount);
     runEngine($dataGame);

@@ -1,6 +1,10 @@
 # Brain games
 
-    Install:    composer global require eriocl/brain-games
+<a href="https://codeclimate.com/github/eriocl/brain-games/maintainability"><img src="https://api.codeclimate.com/v1/badges/73769ed538fd2845d68d/maintainability" /></a>
+![PHP CI](https://github.com/eriocl/brain-games/workflows/PHP%20CI/badge.svg)
+
+    Install:    make install
+                composer global require eriocl/brain-games
 <a href="https://asciinema.org/a/fcn49jnLE9zdRmm7wuWwdLFyA" target="_blank"><img src="https://asciinema.org/a/fcn49jnLE9zdRmm7wuWwdLFyA.svg" /></a>
 
 
@@ -49,5 +53,4 @@ LOSE
 
 https://asciinema.org/a/4AXeV1HnM7NuMWynIre9IZfBk
 
-<a href="https://codeclimate.com/github/eriocl/brain-games/maintainability"><img src="https://api.codeclimate.com/v1/badges/73769ed538fd2845d68d/maintainability" /></a>
-![PHP CI](https://github.com/eriocl/brain-games/workflows/PHP%20CI/badge.svg)
+
