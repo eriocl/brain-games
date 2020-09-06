@@ -40,5 +40,14 @@ LOSE
 
 https://asciinema.org/a/ECpwhYAJ8M5YkKOVTiWFZrRJr
 
+    Play:       brain-prime
+WIN
+
+https://asciinema.org/a/9JWYJFE02fp4eHruxS4MTjLy2
+
+LOSE
+
+https://asciinema.org/a/4AXeV1HnM7NuMWynIre9IZfBk
+
 <a href="https://codeclimate.com/github/eriocl/brain-games/maintainability"><img src="https://api.codeclimate.com/v1/badges/73769ed538fd2845d68d/maintainability" /></a>
 ![PHP CI](https://github.com/eriocl/brain-games/workflows/PHP%20CI/badge.svg)
