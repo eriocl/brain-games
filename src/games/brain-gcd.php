@@ -16,9 +16,11 @@ function findGcd($a, $b) #finding greatest common divisor
     }
     return $a;
 }
-function generateDataGame($roundsCount) #generation data game "brain-gcd"
+
+function generateDataGame($roundsCount) #generate data game "brain-gcd"
 {
-    $dataGame[0] = 'Find the greatest common divisor of given numbers';
+    define('GAME_NAME','Find the greatest common divisor of given numbers');
+    $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);
         $numberB = rand(1, 50);
@@ -28,6 +30,7 @@ function generateDataGame($roundsCount) #generation data game "brain-gcd"
     }
     return $dataGame;
 }
+
 function runGame() #game "brain-gcd"
 {
     $roundsCount = getRoundsCount();

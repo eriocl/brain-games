@@ -17,9 +17,11 @@ function isPrime($number) #detecting prime number
     }
     return true;
 }
-function generateDataGame($roundsCount) #generation data game "brain-prime"
+
+function generateDataGame($roundsCount) #generate data game "brain-prime"
 {
-    $dataGame[0] = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+    define('GAME_NAME','Answer "yes" if given number is prime. Otherwise answer "no".');
+    $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $randomNumber = rand(1, 100);
         $correctAnswer = isPrime($randomNumber) ? 'yes' : 'no';
@@ -28,6 +30,7 @@ function generateDataGame($roundsCount) #generation data game "brain-prime"
     }
     return $dataGame;
 }
+
 function runGame() #game "brain-prime"
 {
     $roundsCount = getRoundsCount();

@@ -17,9 +17,11 @@ function getProgression() # generating a random progression
     }
     return $progression;
 }
-function generateDataGame($roundsCount) #generation data game "brain-progression"
+
+function generateDataGame($roundsCount) #generate data game "brain-progression"
 {
-    $dataGame[0] = 'What number is missing in the progression?';
+    define('GAME_NAME','What number is missing in the progression?');
+    $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $progression = getProgression();
         $randomIndex = array_rand($progression, 1);
@@ -30,6 +32,7 @@ function generateDataGame($roundsCount) #generation data game "brain-progression
     }
     return $dataGame;
 }
+
 function runGame() #game "brain-progression"
 {
     $roundsCount = getRoundsCount();
