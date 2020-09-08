@@ -19,7 +19,7 @@ function calculate($a, $b, $operation) #calculate expression
 
 function generateDataGame($roundsCount) #generate data game "brain-calc"
 {
-    define('GAME_NAME','What is the result of the expression ?');
+    define('GAME_NAME', 'What is the result of the expression ?');
     $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);

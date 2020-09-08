@@ -20,7 +20,7 @@ function isPrime($number) #detecting prime number
 
 function generateDataGame($roundsCount) #generate data game "brain-prime"
 {
-    define('GAME_NAME','Answer "yes" if given number is prime. Otherwise answer "no".');
+    define('GAME_NAME', 'Answer "yes" if given number is prime. Otherwise answer "no".');
     $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $randomNumber = rand(1, 100);
