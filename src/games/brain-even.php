@@ -2,14 +2,10 @@
 
 namespace Brain\Games\Even;
 
-use function cli\line;
-use function Brain\Games\Engine\getRoundsCount;
 use function Brain\Games\Engine\runEngine;
 
 function generateDataGame($roundsCount) #generate data game "brain-even"
 {
-    define('GAME_NAME', 'Answer "yes" if the number is even, otherwise answer "no"');
-    $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $question = rand(1, 15);
         if ($question % 2 === 0) {
@@ -24,7 +20,8 @@ function generateDataGame($roundsCount) #generate data game "brain-even"
 
 function runGame() #game "brain-even
 {
-    $roundsCount = getRoundsCount();
-    $dataGame = generateDataGame($roundsCount);
-    runEngine($dataGame);
+    define('ROUNDS_COUNT', '3');
+    define('GAME_NAME', 'Answer "yes" if the number is even, otherwise answer "no"');
+    $dataGame = generateDataGame(ROUNDS_COUNT);
+    runEngine($dataGame, GAME_NAME);
 }

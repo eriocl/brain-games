@@ -2,12 +2,11 @@
 
 namespace Brain\Games\Gcd;
 
-use function Brain\Games\Engine\getRoundsCount;
 use function Brain\Games\Engine\runEngine;
 
 function findGcd($a, $b) #finding greatest common divisor
 {
-    while (($a != 0) && ($b != 0)) {
+    while ($a != 0 && $b != 0) {
         if ($a > $b) {
             $a = $a - $b;
         } else {
@@ -19,8 +18,6 @@ function findGcd($a, $b) #finding greatest common divisor
 
 function generateDataGame($roundsCount) #generate data game "brain-gcd"
 {
-    define('GAME_NAME', 'Find the greatest common divisor of given numbers');
-    $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);
         $numberB = rand(1, 50);
@@ -33,7 +30,8 @@ function generateDataGame($roundsCount) #generate data game "brain-gcd"
 
 function runGame() #game "brain-gcd"
 {
-    $roundsCount = getRoundsCount();
-    $dataGame = generateDataGame($roundsCount);
-    runEngine($dataGame);
+    define('ROUNDS_COUNT', '3');
+    define('GAME_NAME', 'Find the greatest common divisor of given numbers');
+    $dataGame = generateDataGame(ROUNDS_COUNT);
+    runEngine($dataGame, GAME_NAME);
 }

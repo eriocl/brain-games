@@ -2,10 +2,9 @@
 
 namespace Brain\Games\Calc;
 
-use function Brain\Games\Engine\getRoundsCount;
 use function Brain\Games\Engine\runEngine;
 
-function calculate($a, $b, $operation) #calculate expression
+function calculate($a, $b, $operation)
 {
     switch ($operation) {
         case '-':
@@ -19,8 +18,6 @@ function calculate($a, $b, $operation) #calculate expression
 
 function generateDataGame($roundsCount) #generate data game "brain-calc"
 {
-    define('GAME_NAME', 'What is the result of the expression ?');
-    $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);
         $numberB = rand(1, 50);
@@ -36,7 +33,8 @@ function generateDataGame($roundsCount) #generate data game "brain-calc"
 
 function runGame() # game "brain-calc"
 {
-    $roundsCount = getRoundsCount();
-    $dataGame = generateDataGame($roundsCount);
-    runEngine($dataGame);
+    define('ROUNDS_COUNT', '3');
+    define('GAME_NAME', 'What is the result of the expression ?');
+    $dataGame = generateDataGame(ROUNDS_COUNT);
+    runEngine($dataGame, GAME_NAME);
 }

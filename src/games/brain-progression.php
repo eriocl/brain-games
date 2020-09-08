@@ -2,13 +2,11 @@
 
 namespace Brain\Games\Progression;
 
-use function Brain\Games\Engine\getRoundsCount;
 use function Brain\Games\Engine\runEngine;
 
 function getProgression($length, $firstElement, $step) # generate a progression
 {
     $progression = [];
-    $progression[0] = $firstElement;
     for ($i = 0; $i < $length; $i++) {
         $progression[$i] = $firstElement + $step * $i;
     }
@@ -17,8 +15,6 @@ function getProgression($length, $firstElement, $step) # generate a progression
 
 function generateDataGame($roundsCount) #generate data game "brain-progression"
 {
-    define('GAME_NAME', 'What number is missing in the progression?');
-    $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $progressionLength = rand(8, 10);
         $progressionFirstElement = rand(1, 10);
@@ -35,7 +31,8 @@ function generateDataGame($roundsCount) #generate data game "brain-progression"
 
 function runGame() #game "brain-progression"
 {
-    $roundsCount = getRoundsCount();
-    $dataGame = generateDataGame($roundsCount);
-    runEngine($dataGame);
+    define('ROUNDS_COUNT', '3');
+    define('GAME_NAME', 'What number is missing in the progression?');
+    $dataGame = generateDataGame(ROUNDS_COUNT);
+    runEngine($dataGame, GAME_NAME);
 }

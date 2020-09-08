@@ -2,7 +2,6 @@
 
 namespace Brain\Games\Prime;
 
-use function Brain\Games\Engine\getRoundsCount;
 use function Brain\Games\Engine\runEngine;
 
 function isPrime($number) #detecting prime number
@@ -20,8 +19,6 @@ function isPrime($number) #detecting prime number
 
 function generateDataGame($roundsCount) #generate data game "brain-prime"
 {
-    define('GAME_NAME', 'Answer "yes" if given number is prime. Otherwise answer "no".');
-    $dataGame[0] = GAME_NAME;
     for ($i = 0; $i < $roundsCount; $i++) {
         $randomNumber = rand(1, 100);
         $correctAnswer = isPrime($randomNumber) ? 'yes' : 'no';
@@ -33,7 +30,8 @@ function generateDataGame($roundsCount) #generate data game "brain-prime"
 
 function runGame() #game "brain-prime"
 {
-    $roundsCount = getRoundsCount();
-    $dataGame = generateDataGame($roundsCount);
-    runEngine($dataGame);
+    define('ROUNDS_COUNT', '3');
+    define('GAME_NAME', 'Answer "yes" if given number is prime. Otherwise answer "no".');
+    $dataGame = generateDataGame(ROUNDS_COUNT);
+    runEngine($dataGame, GAME_NAME);
 }

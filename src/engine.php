@@ -5,29 +5,14 @@ namespace Brain\Games\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function getRoundsCount() #asking user about rounds count
+function runEngine($dataGame, $gameName) # game body
 {
     line('Welcome to the Brain Game!');
-    $flag = false;
-    while ($flag !== true) {
-        $roundsCount = prompt('How many rounds do you want ? ');
-        if ((intval($roundsCount) <= 0)) {
-            line('Wrong count, pls dont be rude');
-        } else {
-            $flag = true;
-        }
-    }
-    return $roundsCount;
-}
-
-function runEngine($dataGame) # game body
-{
-    line("{$dataGame[0]}");
+    line("{$gameName}");
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     $roundsCount = count($dataGame);
-    for ($i = 1; $i < $roundsCount; $i++) {
-        [$question, $correctAnswer] = $dataGame[$i];
+    foreach ($dataGame as [$question, $correctAnswer]) {
         line("Question: {$question}");
         $answer = prompt('Your answer');
         if ($answer == $correctAnswer) {
