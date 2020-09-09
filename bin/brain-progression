@@ -7,4 +7,4 @@ use function Brain\Games\findAutoload;
 use function Brain\Games\Progression\runGame;
 
 findAutoload();
-runGame(); #launch brain-progression
+runGame();

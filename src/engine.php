@@ -5,7 +5,7 @@ namespace Brain\Games\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function runEngine($dataGame, $gameName) # game body
+function runEngine($dataGame, $gameName)
 {
     line('Welcome to the Brain Game!');
     line("{$gameName}");

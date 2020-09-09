@@ -7,4 +7,4 @@ use function Brain\Games\findAutoload;
 use function Brain\Games\Calc\runGame;
 
 findAutoload();
-runGame(); #launch brain-calc
+runGame();

@@ -7,4 +7,4 @@ use function Brain\Games\findAutoload;
 use function Brain\Games\Even\runGame;
 
 findAutoload();
-runGame(); #launch brain-even
+runGame();

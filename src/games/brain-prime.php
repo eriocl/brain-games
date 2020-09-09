@@ -4,7 +4,7 @@ namespace Brain\Games\Prime;
 
 use function Brain\Games\Engine\runEngine;
 
-function isPrime($number) #detecting prime number
+function isPrime($number)
 {
     if ($number === 1) {
         return false;
@@ -17,7 +17,7 @@ function isPrime($number) #detecting prime number
     return true;
 }
 
-function generateDataGame($roundsCount) #generate data game "brain-prime"
+function generateDataGame($roundsCount)
 {
     for ($i = 0; $i < $roundsCount; $i++) {
         $randomNumber = rand(1, 100);
@@ -28,7 +28,7 @@ function generateDataGame($roundsCount) #generate data game "brain-prime"
     return $dataGame;
 }
 
-function runGame() #game "brain-prime"
+function runGame()
 {
     define('ROUNDS_COUNT', '3');
     define('GAME_NAME', 'Answer "yes" if given number is prime. Otherwise answer "no".');

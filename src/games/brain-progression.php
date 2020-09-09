@@ -4,7 +4,7 @@ namespace Brain\Games\Progression;
 
 use function Brain\Games\Engine\runEngine;
 
-function getProgression($length, $firstElement, $step) # generate a progression
+function getProgression($length, $firstElement, $step)
 {
     $progression = [];
     for ($i = 0; $i < $length; $i++) {
@@ -13,7 +13,7 @@ function getProgression($length, $firstElement, $step) # generate a progression
     return $progression;
 }
 
-function generateDataGame($roundsCount) #generate data game "brain-progression"
+function generateDataGame($roundsCount)
 {
     for ($i = 0; $i < $roundsCount; $i++) {
         $progressionLength = rand(8, 10);
@@ -29,7 +29,7 @@ function generateDataGame($roundsCount) #generate data game "brain-progression"
     return $dataGame;
 }
 
-function runGame() #game "brain-progression"
+function runGame()
 {
     define('ROUNDS_COUNT', '3');
     define('GAME_NAME', 'What number is missing in the progression?');

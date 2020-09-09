@@ -16,7 +16,7 @@ function calculate($a, $b, $operation)
     }
 }
 
-function generateDataGame($roundsCount) #generate data game "brain-calc"
+function generateDataGame($roundsCount)
 {
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);
@@ -31,7 +31,7 @@ function generateDataGame($roundsCount) #generate data game "brain-calc"
     return $dataGame;
 }
 
-function runGame() # game "brain-calc"
+function runGame()
 {
     define('ROUNDS_COUNT', '3');
     define('GAME_NAME', 'What is the result of the expression ?');
