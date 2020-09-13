@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-require_once('__DIR__/../src/autoloadPath');
+require_once('autoloadPath.php');
 
 use function Brain\Games\findAutoload;
 use function Brain\Games\Gcd\runGame;
