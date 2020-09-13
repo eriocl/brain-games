@@ -4,6 +4,9 @@ namespace Brain\Games\Prime;
 
 use function Brain\Games\Engine\runEngine;
 
+const ROUNDS_COUNT = 3;
+const GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+
 function isPrime($number)
 {
     if ($number === 1) {
@@ -30,8 +33,6 @@ function generateDataGame($roundsCount)
 
 function runGame()
 {
-    define('ROUNDS_COUNT', '3');
-    define('GAME_NAME', 'Answer "yes" if given number is prime. Otherwise answer "no".');
     $dataGame = generateDataGame(ROUNDS_COUNT);
-    runEngine($dataGame, GAME_NAME);
+    runEngine($dataGame, GAME_RULE);
 }

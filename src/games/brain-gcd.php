@@ -4,6 +4,9 @@ namespace Brain\Games\Gcd;
 
 use function Brain\Games\Engine\runEngine;
 
+const ROUNDS_COUNT = 3;
+const GAME_RULE = 'Find the greatest common divisor of given numbers.';
+
 function findGcd($a, $b) #finding greatest common divisor
 {
     while ($a != 0 && $b != 0) {
@@ -30,8 +33,6 @@ function generateDataGame($roundsCount)
 
 function runGame()
 {
-    define('ROUNDS_COUNT', '3');
-    define('GAME_NAME', 'Find the greatest common divisor of given numbers');
     $dataGame = generateDataGame(ROUNDS_COUNT);
-    runEngine($dataGame, GAME_NAME);
+    runEngine($dataGame, GAME_RULE);
 }
