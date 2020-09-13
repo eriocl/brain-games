@@ -3,8 +3,6 @@
 
 require_once('autoloadPath.php');
 
-use function Brain\Games\findAutoload;
 use function Brain\Games\Even\runGame;
 
-findAutoload();
 runGame();

@@ -5,14 +5,13 @@ namespace Brain\Games\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function runEngine($dataGame, $gameName)
+function runEngine($gameData, $gameRule)
 {
     line('Welcome to the Brain Game!');
-    line("{$gameName}");
+    line("{$gameRule}");
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
-    $roundsCount = count($dataGame);
-    foreach ($dataGame as [$question, $correctAnswer]) {
+    foreach ($gameData as [$question, $correctAnswer]) {
         line("Question: {$question}");
         $answer = prompt('Your answer');
         if ($answer == $correctAnswer) {
