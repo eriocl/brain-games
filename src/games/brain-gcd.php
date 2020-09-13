@@ -7,7 +7,7 @@ use function Brain\Games\Engine\runEngine;
 const ROUNDS_COUNT = 3;
 const GAME_RULE = 'Find the greatest common divisor of given numbers.';
 
-function findGcd($a, $b) #finding greatest common divisor
+function findGcd($a, $b)
 {
     while ($a != 0 && $b != 0) {
         if ($a > $b) {
