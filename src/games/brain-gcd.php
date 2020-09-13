@@ -19,20 +19,20 @@ function findGcd($a, $b)
     return $a;
 }
 
-function generateDataGame($roundsCount)
+function generateGameData($roundsCount)
 {
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);
         $numberB = rand(1, 50);
         $question = "{$numberA} {$numberB}";
         $correctAnswer = findGcd($numberA, $numberB);
-        $dataGame[] = [$question, $correctAnswer];
+        $gameData[] = [$question, $correctAnswer];
     }
-    return $dataGame;
+    return $gameData;
 }
 
 function runGame()
 {
-    $dataGame = generateDataGame(ROUNDS_COUNT);
-    runEngine($dataGame, GAME_RULE);
+    $gameData = generateGameData(ROUNDS_COUNT);
+    runEngine($gameData, GAME_RULE);
 }

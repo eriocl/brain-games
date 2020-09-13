@@ -20,19 +20,19 @@ function isPrime($number)
     return true;
 }
 
-function generateDataGame($roundsCount)
+function generateGameData($roundsCount)
 {
     for ($i = 0; $i < $roundsCount; $i++) {
         $randomNumber = rand(1, 100);
         $correctAnswer = isPrime($randomNumber) ? 'yes' : 'no';
         $question = $randomNumber;
-        $dataGame[] = [$question, $correctAnswer];
+        $gameData[] = [$question, $correctAnswer];
     }
-    return $dataGame;
+    return $gameData;
 }
 
 function runGame()
 {
-    $dataGame = generateDataGame(ROUNDS_COUNT);
-    runEngine($dataGame, GAME_RULE);
+    $gameData = generateGameData(ROUNDS_COUNT);
+    runEngine($gameData, GAME_RULE);
 }

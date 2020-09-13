@@ -16,7 +16,7 @@ function getProgression($length, $firstElement, $step)
     return $progression;
 }
 
-function generateDataGame($roundsCount)
+function generateGameData($roundsCount)
 {
     for ($i = 0; $i < $roundsCount; $i++) {
         $progressionLength = rand(8, 10);
@@ -27,13 +27,13 @@ function generateDataGame($roundsCount)
         $correctAnswer = $progression[$randomIndex];
         $progression[$randomIndex] = '..';
         $question = implode(" ", $progression);
-        $dataGame[] = [$question, $correctAnswer];
+        $gameData[] = [$question, $correctAnswer];
     }
-    return $dataGame;
+    return $gameData;
 }
 
 function runGame()
 {
-    $dataGame = generateDataGame(ROUNDS_COUNT);
-    runEngine($dataGame, GAME_RULE);
+    $gameData = generateGameData(ROUNDS_COUNT);
+    runEngine($gameData, GAME_RULE);
 }

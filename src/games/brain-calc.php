@@ -19,7 +19,7 @@ function calculate($a, $b, $operation)
     }
 }
 
-function generateDataGame($roundsCount)
+function generateGameData($roundsCount)
 {
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);
@@ -29,13 +29,13 @@ function generateDataGame($roundsCount)
         $question = "{$numberA} {$operation} {$numberB}";
         $correctAnswer = calculate($numberA, $numberB, $operation);
 
-        $dataGame[] = [$question, $correctAnswer];
+        $gameData[] = [$question, $correctAnswer];
     }
-    return $dataGame;
+    return $gameData;
 }
 
 function runGame()
 {
-    $dataGame = generateDataGame(ROUNDS_COUNT);
-    runEngine($dataGame, GAME_RULE);
+    $gameData = generateGameData(ROUNDS_COUNT);
+    runEngine($gameData, GAME_RULE);
 }

@@ -7,7 +7,7 @@ use function Brain\Games\Engine\runEngine;
 const ROUNDS_COUNT = 3;
 const GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-function generateDataGame($roundsCount)
+function generateGameData($roundsCount)
 {
     for ($i = 0; $i < $roundsCount; $i++) {
         $question = rand(1, 15);
@@ -16,13 +16,13 @@ function generateDataGame($roundsCount)
         } else {
             $correctAnswer = 'no';
         }
-        $dataGame[] = [$question, $correctAnswer];
+        $gameData[] = [$question, $correctAnswer];
     }
-    return $dataGame;
+    return $gameData;
 }
 
 function runGame()
 {
-    $dataGame = generateDataGame(ROUNDS_COUNT);
-    runEngine($dataGame, GAME_RULE);
+    $gameData = generateGameData(ROUNDS_COUNT);
+    runEngine($gameData, GAME_RULE);
 }
