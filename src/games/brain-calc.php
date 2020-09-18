@@ -24,9 +24,9 @@ function generateGameData($roundsCount)
         $numberA = rand(1, 50);
         $numberB = rand(1, 50);
         $operations = ['+', '-', '*'];
-        $operation = $operations[array_rand($operations, 1)];
+        $operation = $operations[array_rand($operations)];
         $question = "{$numberA} {$operation} {$numberB}";
-        $correctAnswer = calculate($numberA, $numberB, $operation);
+        $correctAnswer = (string)calculate($numberA, $numberB, $operation);
 
         $gameData[] = [$question, $correctAnswer];
     }

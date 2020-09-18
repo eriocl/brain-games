@@ -14,7 +14,7 @@ function runEngine($gameData, $gameRule)
     foreach ($gameData as [$question, $correctAnswer]) {
         line("Question: {$question}");
         $answer = prompt('Your answer');
-        if ($answer == $correctAnswer) {
+        if ($answer === $correctAnswer) {
             line('Correct!');
         } else {
             return line("'{$answer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'.");

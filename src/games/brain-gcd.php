@@ -24,7 +24,7 @@ function generateGameData($roundsCount)
         $numberA = rand(1, 50);
         $numberB = rand(1, 50);
         $question = "{$numberA} {$numberB}";
-        $correctAnswer = findGcd($numberA, $numberB);
+        $correctAnswer = (string)findGcd($numberA, $numberB);
         $gameData[] = [$question, $correctAnswer];
     }
     return $gameData;

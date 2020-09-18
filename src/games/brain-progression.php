@@ -23,7 +23,7 @@ function generateGameData($roundsCount)
         $progressionStep = rand(1, 9);
         $progression = getProgression($progressionLength, $progressionFirstElement, $progressionStep);
         $randomIndex = array_rand($progression, 1);
-        $correctAnswer = $progression[$randomIndex];
+        $correctAnswer = (string)$progression[$randomIndex];
         $progression[$randomIndex] = '..';
         $question = implode(" ", $progression);
         $gameData[] = [$question, $correctAnswer];
