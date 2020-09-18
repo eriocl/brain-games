@@ -4,7 +4,6 @@ namespace Brain\Games\Calc;
 
 use function Brain\Games\Engine\runEngine;
 
-const ROUNDS_COUNT = 3;
 const GAME_RULE = 'What is the result of the expression ?';
 
 function calculate($a, $b, $operation)

@@ -14,12 +14,12 @@
             "src/engine.php"
         ]
     },
-     "bin": [
-         "bin/brain-even",
-         "bin/brain-gcd",
-         "bin/brain-progression",
-         "bin/brain-calc",
-         "bin/brain-prime"
+    "bin": [
+            "bin/brain-even",
+            "bin/brain-gcd",
+            "bin/brain-progression",
+            "bin/brain-calc",
+            "bin/brain-prime"
 	    ],
     "authors": [
         {

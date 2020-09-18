@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-require_once('autoloadPath.php');
+require_once('autoload.php');
 
 use function Brain\Games\Prime\runGame;
 

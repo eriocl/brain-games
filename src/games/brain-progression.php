@@ -4,7 +4,6 @@ namespace Brain\Games\Progression;
 
 use function Brain\Games\Engine\runEngine;
 
-const ROUNDS_COUNT = 3;
 const GAME_RULE = 'What number is missing in the progression?';
 
 function getProgression($length, $firstElement, $step)
