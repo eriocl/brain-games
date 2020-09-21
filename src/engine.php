@@ -2,6 +2,8 @@
 
 namespace Brain\Games\Engine;
 
+const ROUNDS_COUNT = 3;
+
 use function cli\line;
 use function cli\prompt;
 
