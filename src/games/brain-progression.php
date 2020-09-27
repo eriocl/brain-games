@@ -8,7 +8,7 @@ use const Brain\Games\Engine\ROUNDS_COUNT;
 
 const GAME_RULE = 'What number is missing in the progression?';
 
-function getProgression($length, $firstElement, $step)
+function makeProgression($length, $firstElement, $step)
 {
     $progression = [];
     for ($i = 0; $i < $length; $i++) {
@@ -23,7 +23,7 @@ function generateGameData($roundsCount)
         $progressionLength = rand(8, 10);
         $progressionFirstElement = rand(1, 10);
         $progressionStep = rand(1, 9);
-        $progression = getProgression($progressionLength, $progressionFirstElement, $progressionStep);
+        $progression = makeProgression($progressionLength, $progressionFirstElement, $progressionStep);
         $randomIndex = array_rand($progression, 1);
         $correctAnswer = (string)$progression[$randomIndex];
         $progression[$randomIndex] = '..';

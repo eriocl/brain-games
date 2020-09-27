@@ -24,10 +24,10 @@ function calculate($a, $b, $operation)
 
 function generateGameData($roundsCount)
 {
+    $operations = ['+', '-', '*'];
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);
         $numberB = rand(1, 50);
-        $operations = ['+', '-', '*'];
         $operation = $operations[array_rand($operations)];
         $question = "{$numberA} {$operation} {$numberB}";
         $correctAnswer = (string)calculate($numberA, $numberB, $operation);
