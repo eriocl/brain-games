@@ -4,6 +4,8 @@ namespace Brain\Games\Prime;
 
 use function Brain\Games\Engine\runEngine;
 
+use const Brain\Games\Engine\ROUNDS_COUNT;
+
 const GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 function isPrime($number)
