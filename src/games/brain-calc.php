@@ -15,6 +15,8 @@ function calculate($a, $b, $operation)
             return $a + $b;
         case '*':
             return $a * $b;
+        default:
+            print_r("{$operation} invalid operand for Brain\Games\Calc\calculate.");
     }
 }
 
