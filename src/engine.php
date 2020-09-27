@@ -19,8 +19,9 @@ function runEngine($gameData, $gameRule)
         if ($answer === $correctAnswer) {
             line('Correct!');
         } else {
-            return line("'{$answer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'.");
+            line("'{$answer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'.");
+            return;
         }
     }
-    return line("Congratulations, {$name}!");
+    line("Congratulations, {$name}!");
 }
