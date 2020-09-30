@@ -10,12 +10,9 @@ const GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 function isEven($number)
 {
-    if ($number % 2 === 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return $number % 2 === 0;
 }
+
 function generateGameData($roundsCount)
 {
     for ($i = 0; $i < $roundsCount; $i++) {

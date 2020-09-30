@@ -18,13 +18,14 @@ function calculate($a, $b, $operation)
         case '*':
             return $a * $b;
         default:
-            print_r("{$operation} invalid operand for Brain\Games\Calc\calculate.");
+            //return "";
+            throw new \Exception("'{$operation}' invalid operand");
     }
 }
 
 function generateGameData($roundsCount)
 {
-    $operations = ['+', '-', '*'];
+    $operations =['+', '-', '*'];
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);
         $numberB = rand(1, 50);
