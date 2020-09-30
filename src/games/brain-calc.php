@@ -18,7 +18,6 @@ function calculate($a, $b, $operation)
         case '*':
             return $a * $b;
         default:
-            //return "";
             throw new \Exception("'{$operation}' invalid operand");
     }
 }
