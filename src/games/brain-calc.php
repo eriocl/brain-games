@@ -25,7 +25,7 @@ function calculate($a, $b, $operation)
 
 function generateGameData($roundsCount)
 {
-    $operations =['+', '-', '*'];
+    $operations = ['+', '-', '*'];
     for ($i = 0; $i < $roundsCount; $i++) {
         $numberA = rand(1, 50);
         $numberB = rand(1, 50);
